@@ -1,0 +1,434 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400&family=Poppins:wght@300;400;500&family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&family=Josefin+Sans:wght@100;200;300;400&family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: #d9eee1 !important;
+}
+
+.navbar-wraper {
+    width: 100%;
+    background: #1D2A35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .navbar-wraper::after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+.logo {
+    padding: 0.5rem;
+}
+.left-navitems{
+    display: flex;
+    align-items: center;
+}
+.right-navitems ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ri-menu-3-fill{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    display: none;
+}
+.ri-close-fill{
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
+    display: none;
+}
+
+.navbar-wraper ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.1rem 0.5rem;
+}
+.navbar-wraper ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size:1.1rem;
+    padding:  1.7rem 1rem;
+}
+.navbar-wraper ul li a:hover{
+    background-color: #04aa6d;
+    overflow: hidden;
+}
+/* navbar section ends */
+
+/* buttons styles */
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.white {
+    background-color: #fff;
+    color: #000;
+}
+
+.pink {
+    background-color: #ffc0cb;
+}
+
+.yellow {
+    background-color: #fff4a3;
+}
+
+.green {
+    background-color: #04aa6d;
+    color: #fff;
+}
+
+/* button styles ends */
+
+/* learn to code secton starts */
+.learn-to-code {
+    text-align: center;
+    padding: 4rem 0rem;
+    background: #0d1721;
+}
+
+.title-and-subtitle {
+    padding: 1rem;
+}
+
+.title-and-subtitle h1 {
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.title-and-subtitle h3 {
+    padding: 1rem;
+    color: #ffc0cb;
+}
+
+.search-box {
+    border-radius: 5px;
+    background-color: #fff;
+    width: 40%;
+    margin:auto;
+}
+.search-box::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.search-box input {
+    padding: 1.15rem;
+    border-radius: 5px;
+    font-weight: bold;
+    float: left;
+    border: none;
+    width: 80%;
+}
+
+.search-box button {
+    background-color: #04aa6d;
+    border-radius: 0 5px 5px 0;
+    width: 20%;
+    padding: 1rem;
+}
+
+.search-box input[type=text]:focus {
+    border: none;
+}
+
+.where-to-start {
+    padding: 2rem;
+}
+
+.where-to-start a {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.where-to-start a:hover{
+    color:#04aa6d;
+}
+
+/* learn to code secton ends */
+
+/* content HTMl starts */
+.main-content-div {
+    padding: 3rem;
+    background-color: #15202B;
+}
+
+.main-content-div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.c-html {
+    background-color: #d9eee1;
+}
+
+.left-section {
+    text-align: center;
+    float: left;
+    width: 50%;
+}
+
+.left-section h1 {
+    font-size: 5rem;
+    padding: 1rem;
+}
+
+.left-section h3 {
+    padding: 0 0 1rem;
+}
+
+.left-section button {
+    display: block;
+    margin: 1.5rem auto;
+    text-align: center;
+    width: 30%;
+    padding: 0.5rem 1rem;
+
+}
+
+.right-section {
+    float: left;
+    width: 50%;
+    padding: 2rem;
+}
+
+.right-section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.code-wrapper {
+    background-color: #1D2A35;
+    border-radius: 5px;
+    padding: 1.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.code-wrapper h2 {
+    color: #ffffff80;
+    padding: 1.5rem 0;
+}
+
+.code {
+    background-color: #15202B;
+    padding: 1.5rem;
+    border-radius: 5px;
+    border-left: 5px solid #04aa6d;
+    color: #fff;
+}
+
+.try-yourself-btn {
+    padding: 1rem 0 0;
+}
+
+.try-yourself-btn button {
+    width: 30%;
+}
+
+/* content HTMl ends */
+
+/* content css */
+.css {
+    background-color: #fff4a3;
+}
+
+/* content css ends */
+
+/* content javascript starts */
+.javascript {
+    background-color: #15202B;
+    color: #fff;
+}
+
+/* content javascript ends */
+/*  content python starts */
+.python {
+    background-color: #f3ecea;
+}
+
+/*  content python ends */
+
+/* sql section starts */
+.sql {
+    background-color: #96d4d4;
+}
+
+/* sql section ends */
+
+/* 6 languages grid starts */
+.outer {
+    float: left;
+    width: 50%;
+    padding: 2rem;
+}
+
+.inner {
+    border-radius: 5px;
+    padding: 3rem;
+    text-align: center;
+}
+
+.inner h1 {
+    font-size: 3.125rem;
+}
+
+.inner h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.inner button {
+    background-color: #000;
+}
+
+.inner button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* 6 languages grid ends */
+.php {
+    background-color: #ffc0c7;
+}
+.jquery {
+    background: #fff4a3;
+}
+.java {
+    background-color: #f3ecea;
+}
+
+.cplusplus {
+    background-color: #d9eee1;
+}
+.w3css {
+    background-color: #96d4d4;
+}
+.bootstrap {
+    background-color: #e7e9eb;
+}
+.c {
+    background-color: #ffc0cb;
+}
+.csharp {
+    background-color: #fff4a3;
+}
+/* 6 programming languages grid ends */
+
+/* more programming languages starts */
+.grid {
+    background-color: #15202B;
+    padding: 2rem;
+}
+
+.grid::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.outside {
+    float: left;
+    width: 25%;
+    padding: 1.5rem 2.5rem;
+}
+
+.inside {
+    padding: 3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.r {
+    background-color: #ffc0cb;
+}
+
+.kotlin {
+    background-color: #fff4a3;
+}
+
+.nodejs {
+    background-color: #88c1c2;
+}
+
+.react {
+    background-color: #e6afb6;
+}
+
+.json {
+    background-color: #d9eee1;
+}
+
+.angularjs {
+    background-color: #e7e9eb;
+}
+
+.mysql {
+    background-color: #96d4d4;
+}
+
+.xml {
+    background-color: #e7e9eb;
+}
+
+.saas {
+    background-color: #96d4d4;
+}
+
+.icon {
+    background-color: #88c1c2;
+}
+
+.graphics {
+    background-color: #ffc0c7;
+}
+
+.rwd {
+    background-color: #d9eee1;
+}
+
+.excel {
+    background-color: #96d4d4;
+}
+
+.googlesheets {
+    background-color: #f3ecea;
+}
+
+.ai {
+    background-color: #96d4d4;
+}
+
+.machinelearning {
+    background-color: #e7e9eb;
+}
+
+/* more programming languages ends */
+
